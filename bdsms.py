@@ -13,7 +13,7 @@ yellow = '\33[93m'
 green = '\033[1;32m'
 cyan  = "\033[96m"
 end = '\033[0m'
-line=yellow+"======================================================================================================================"
+line=yellow+""
 space=" "
 logo=red+str("""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣄⣀⣤⣤⣀⣀
@@ -44,8 +44,8 @@ def header():
 	print(notice)
 #SELECT_MAIN
 def opt():
-	print(cyan+"\n==> Select Your Option")
-	print(yellow+"\n\n [1] Start Bombing (Bangladesh Number)\n\n [2] Back to Menu")
+	print(cyan+"\n Select Your Option")
+	print(yellow+"\n\n [1] Start Bombing (Bangladesh Number)\n\n {2} Back to Menu")
 	
 
 #MAIN_TOOL
