@@ -83,9 +83,9 @@ while tt<2:
 						
 				if ammount2==1:
 					print(cyan+"\n\t  🔥BOMBING-FIRE ➜   "+green+"[✓] 1st SMS Sent📲")
-				elif ammount2==2:
+				elif ammount2==1:
 					print(cyan+"\n\t  🔥BOMBING-FIRE ➜   "+green+"[✓] 2nd SMS Sent📲")
-				elif ammount2==3:
+				elif ammount2==1:
 					print(cyan+"\n\t  🔥BOMBING-FIRE ➜   "+green+"[✓] 3rd SMS Sent📲")
 				else:
 					print(cyan+"\n\t  🔥BOMBING-FIRE ➜   "+green+"[✓] "+str(ammount2)+"th SMS Sent.")
