@@ -21,14 +21,11 @@ end = '\033[0m'
 line=yellow+"--------------------------------------------------------------------------------------"
 space=" "
 logo=red+str("""
-     
 
-███╗░░██╗░█████╗░██╗░░██╗██╗██████╗░  ░█████╗░██╗░░░░░░█████╗░███╗░░░███╗
-████╗░██║██╔══██╗██║░░██║██║██╔══██╗  ██╔══██╗██║░░░░░██╔══██╗████╗░████║
-██╔██╗██║███████║███████║██║██║░░██║  ███████║██║░░░░░███████║██╔████╔██║
-██║╚████║██╔══██║██╔══██║██║██║░░██║  ██╔══██║██║░░░░░██╔══██║██║╚██╔╝██║
-██║░╚███║██║░░██║██║░░██║██║██████╔╝  ██║░░██║███████╗██║░░██║██║░╚═╝░██║
-╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═════╝░  ╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝""")
+█████████████████████████████████████████████████████████
+█▄─▀█▄─▄██▀▄─██─█─█▄─▄█▄─▄▄▀████▀▄─██▄─▄████▀▄─██▄─▀█▀─▄█
+██─█▄▀─███─▀─██─▄─██─███─██─████─▀─███─██▀██─▀─███─█▄█─██
+▀▄▄▄▀▀▄▄▀▄▄▀▄▄▀▄▀▄▀▄▄▄▀▄▄▄▄▀▀▀▀▄▄▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▄▄▄▀""")
 
 
 
@@ -217,7 +214,7 @@ while count<2:
 		
 	elif main_opt==str(about):
 		notice=""
-		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/c/RootOfCyber"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://www.facebook.com/RootOfCyber"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\thttps://chat.whatsapp.com/JPTOWlsJhhgEVtzht4tAlr"+cyan+"\n\n\tTelegram:\n"+yellow+"https://t.me/joinchat/RScE4xF8TiQIOs2Z"+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\trootofcyber@gmail.com"+cyan+"\n\n\n\tDeveloped By "+yellow+"Sanaur Asif"+cyan+"\n\tFB:"+yellow+" https://fb.com/sanaur.asif.72")
+		print(cyan+"\n\n\tYoutube:"+yellow+"\n\n\thttps://www.youtube.com/channel/UCvVqA5t8XNCc5UeeC9c__VQ"+cyan+"\n\n\tFacebook:"+yellow+"\n\n\thttps://m.facebook.com/I.am.a.devil.of.my.world.d4r3d3v1l"+cyan+"\n\n\tWhat\'s app:"+yellow+"\n\n\t"+cyan+"\n\n\tTelegram:\n"+yellow+""+cyan+"\n\n\n\n\tContact Us:"+yellow+"\n\n\t"+cyan+"\n\n\n\tTermux "+yellow+"Nahid Alam"+cyan+"\n\tFB:"+yellow+" ")
 		a=input(cyan+"\n\n\t\t[>] Press "+yellow+"Enter"+cyan+" to Continue")
 		count=1
 	else:
